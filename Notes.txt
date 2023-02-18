@@ -1,0 +1,33 @@
+Identity & Authentication(User Manager & Role Manager Class)
+-------------------------------------------------------------
+
+Install Bearer Package 1st of all Microsoft.AspNetCore.Authentication.JwtBearer
+then Identity Microsoft.AspNetCore.Identity then Microsoft.AspNetCore.Identity.EntityFrameworkCore
+Add AppUser class for using Identity, reg in program.cs with Role,Context and Token Providers
+Inherit IdentityDbContext<AppUser> in Context
+Adding Jwt here for Authentication in Program.cs
+Add Jwt Bearer Settings in appsettings
+Add Jwt Bearer in Program.cs
+add-migration AuthenticationToDB
+
+What is security stamp C#?
+This is a signed token which is not stored on the server. The security timestamp is used for tracking changes made to the user profile. It is used for security purposes when important properties of a user change, such as changing the password.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
